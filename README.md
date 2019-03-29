@@ -2,7 +2,7 @@
 # Language: Python
 # Input: TXT (rank files)
 # Output: CSV (correlations)
-# Tested with: PluMA 1.0, Python 2.7
+# Tested with: PluMA 1.0, Python 3.6
 
 PluMA plugin to compute Spearman correlations (Spearman, 1904) given
  a single set of samples and multiple sets of entities and ranks.

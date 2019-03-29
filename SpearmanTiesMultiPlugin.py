@@ -30,7 +30,7 @@ class SpearmanTiesMultiPlugin:
       i = 0
       for line in file1:
          contents = line.split(',')
-	 self.ADJ.append([])
+         self.ADJ.append([])
          for j in range(self.p):
             value = float(contents[j+1])
             self.ADJ[i].append(value)
