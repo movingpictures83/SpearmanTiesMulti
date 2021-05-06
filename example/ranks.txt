@@ -1,2 +1,2 @@
-plugins/SpearmanTiesMulti/example/ranks1.csv
-plugins/SpearmanTiesMulti/example/ranks2.csv
+ranks1.csv
+ranks2.csv

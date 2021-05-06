@@ -10,8 +10,9 @@ class SpearmanTiesMultiPlugin:
 
    def run(self):
       filestuff = open(self.myfile, 'r')
-      file1 = open(filestuff.readline().strip(), 'r')
-      file2 = open(filestuff.readline().strip(), 'r')
+      file1 = open(PyPluMA.prefix() + "/" + filestuff.readline().strip(), 'r')
+      file2 = open(PyPluMA.prefix() + "/" + filestuff.readline().strip(), 'r')
+
 
       self.firstline1 = file1.readline().strip()
       self.bacteria1 = self.firstline1.split(',')
